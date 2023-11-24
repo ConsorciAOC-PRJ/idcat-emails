@@ -29,6 +29,14 @@
       th {
         color: #1B2124;
       }
+      a {
+        color: #005CD1;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
     </mj-style>
   </mj-head>
   <mj-body background-color="#F5F5F6" css-class="body">
@@ -36,7 +44,7 @@
       <mj-section>
         <mj-column>
           <mj-text padding="0px 25px 0px 25px">
-            <h1 style="margin:0"><img src="../assets/logo.png" width="180px" align="left" alt="Ajuntament de Badalona" /></h1>
+            <h1 style="margin:0"><a href="https://www.idcat.cat/"><img src="../assets/logo.png" width="88px" height="80px" align="left" alt="idCAT CERTIFICAT"/></a></h1>
           </mj-text>
         </mj-column>
       </mj-section>
@@ -46,56 +54,41 @@
             <h2 style="margin:0;font-size:18px;">Hola Marta,</h2>
           </mj-text>
           <mj-text padding="0px 25px" mj-class="arial-16" color="#1B2124">
-            <p>Has rebut una nova notificació de l'ajuntament de Badalona.</p>
+            <p><strong>El teu idCAT Certificat caducarà aviat.</strong> Renova'l abans del dia [DATA DE CADUCITAT] per poder continuar fent-ne ús.</p>
+            <p>Per renovar aquest certificat hauràs d’<strong>anar presencialment</strong> a l'<a href="#">Entitat de Registre idCAT</a> que prefereixis.</p>
           </mj-text>
-          <mj-button href="#" background-color="#005CD1" border-radius="8px" align="left" inner-padding="12px 16px" mj-class="arial-16-bold">Identifica't per accedir-hi</mj-button>
         </mj-column>
       </mj-section>
-      <mj-section padding="20px 25px 0px 25px">
+      <mj-section>
         <mj-column>
-            <mj-text padding="0px 0px 6px 0px" mj-class="arial-18" color="#1B2124"><h2 style="margin:0;font-size:18px;">Dades de l'enviament</h2></mj-text>
-            <mj-divider padding="0px" border-width="1px" border-style="solid" border-color="#B1B4B6"/>
+          <mj-text padding="0px 25px" mj-class="arial-16" color="#1B2124">
+            <h2 style="font-size:16px;">Més informació</h2>
+            <ul>
+              <li><a href="#">Procés de renovació del Certificat idCAT</a></li>
+              <li><a href="#">Política General de Certificació</a></li>
+            </ul>
+            <p style="color:#656D72;">Si tens dubtes sobre el funcionament del servei d’identitat digital pots consultar el nostre <a href="#">portal de suport.</a></p>
+          </mj-text>
         </mj-column>
       </mj-section>
-      <mj-section padding="0px">
-        <mj-column>
-          <mj-table mj-class="arial-16">
-            <tr>
-              <th align="left" style="width:30%">Destinatari</th>
-              <td>Marta Puig Mir</td>
-            </tr>
-            <tr>
-              <th align="left">Emissor</th>
-              <td>Ajuntament de Badalona</td>
-            </tr>
-            <tr>
-              <th align="left">Data d'entrega</th>
-              <td>10/03/2022 a les 14:26h</td>
-            </tr>
-            <tr>
-              <th align="left">Accés fins</th>
-              <td>20/08/2022 a les 23:59h</td>
-            </tr>
-            <tr>
-              <th align="left">Expedient</th>
-              <td>34234/2021</td>
-            </tr>
-            <tr>
-              <th align="left">Id. Notificació</th>
-              <td>98234</td>
-            </tr>
-          </mj-table>
-        </mj-column>
-      </mj-section>
-      <mj-section padding="20px 25px 0px 25px">
+      <mj-section padding="0px 25px 0px 25px">
         <mj-column>
             <mj-divider padding="0px" border-width="1px" border-style="solid" border-color="#E5E6E8"/>
             <mj-text padding="0px" color="#656D72" mj-class="arial-14">
-                <p>Si voleu fer alguna consulta sobre els mètodes d'accés, podreu posar-vos en contacte amb el nostre <a href="#" style="color:#656D72">portal de suport.</a></p>
-                <p>Aquest missatge de correu electrònic procedeix d'una adreça exclusivament d'enviament. No respongueu aquest missatge.</p>
+                <p>Com a sol·licitant del certificat t’informem que el Consorci AOC, com a responsable del tractament, tractarà les teves dades de caràcter personal dins de l’activitat "Persones Físiques Certificades" que figura al Registre d’activitats de tractament del Consorci AOC.
+                Les dades es tractaran per a la gestió del servei de certificació, és a dir per l’emissió i gestió posterior del certificat i per establir comunicacions sobre les peticions, els actes divulgatius dels certificats, els nous usos, les enquestes de satisfacció o altres serveis relacionats directament amb el servei.</p>
+                <p>Pots accedir a les teves dades, sol·licitar-ne la rectificació o supressió, oposar-te al tractament i sol·licitar-ne la limitació, mitjançant un escrit adreçat al Consorci AOC C/Tànger 98, 22@- 08018 Barcelona o mitjançant formulari electrònic <a href="#" style="color:#656D72">disponible aquí.</a> Pots ampliar l’anterior informació consultant el Registre de l’Activitat del Tractament "Persones Físiques Certificades" de la <a href="#" style="color:#656D72">seu electrònica del Consorci AOC.</a></p>
             </mj-text>
         </mj-column>
       </mj-section>
     </mj-wrapper>
+    <mj-section css-class="wrapper">
+      <mj-column>
+        <mj-text padding="0px 15px" mj-class="arial-14" color="#656D72">
+          <p style="margin:0">Aquest missatge de correu electrònic procedeix d'una adreça exclusivament d'enviament. No responguis aquest missatge. Servei prestat per l'Administració Oberta de Catalunya (AOC).</p>
+        </mj-text>
+        <mj-image src="../assets/logo-aoc.png" alt="AOC. Administració Oberta de Catalunya" align="left" width="174px" height="28px" padding="15px"></mj-image>
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
