@@ -17,18 +17,6 @@
       .wrapper {
         width: 80%;
       }
-      .cell {
-        padding: 0px;
-      }
-      .data-section {
-        margin: 0px 25px 0px 25px;
-      }
-      td {
-        color: #656D72;
-      }
-      th {
-        color: #1B2124;
-      }
       a {
         color: #005CD1;
       }
@@ -40,29 +28,29 @@
     </mj-style>
   </mj-head>
   <mj-body background-color="#F5F5F6" css-class="body">
-    <mj-wrapper background-color="#FFFFFF" border-radius="12px" css-class="wrapper">
-      <mj-section>
+    <mj-wrapper background-color="#FFFFFF" border-radius="12px" css-class="wrapper" padding="0px">
+      <mj-section padding="32px 24px 24px 24px">
         <mj-column>
-          <mj-text padding="0px 25px 0px 25px">
+          <mj-text padding="0px">
             <h1 style="margin:0"><a href="https://www.idcat.cat/"><img src="../assets/logo.png" width="88px" height="80px" align="left" alt="idCAT CERTIFICAT"/></a></h1>
           </mj-text>
         </mj-column>
       </mj-section>
       <mj-section padding="0px">
         <mj-column>
-          <mj-text padding="0px 25px" mj-class="arial-18" color="#1B2124">
+          <mj-text padding="0px 24px" mj-class="arial-18" color="#1B2124">
             <h2 style="margin:0;font-size:18px;">Hola Marta,</h2>
           </mj-text>
-          <mj-text padding="0px 25px" mj-class="arial-16" color="#1B2124">
+          <mj-text padding="0px 24px" mj-class="arial-16" color="#1B2124">
             <p><strong>El teu idCAT Certificat caducarà aviat.</strong> Renova'l abans del dia [DATA DE CADUCITAT] per poder continuar fent-ne ús.</p>
-            <p>Per renovar aquest certificat hauràs d’<strong>anar presencialment</strong> a l'<a href="#">Entitat de Registre idCAT</a> que prefereixis.</p>
+            <p style="margin:0;">Per renovar aquest certificat hauràs d’<strong>anar presencialment</strong> a l'<a href="#">Entitat de Registre idCAT</a> que prefereixis.</p>
           </mj-text>
         </mj-column>
       </mj-section>
-      <mj-section>
+      <mj-section padding="24px 0px 0px 0px">
         <mj-column>
-          <mj-text padding="0px 25px" mj-class="arial-16" color="#1B2124">
-            <h2 style="font-size:16px;">Més informació</h2>
+          <mj-text padding="0px 24px" mj-class="arial-16" color="#1B2124">
+            <h2 style="font-size:16px;margin:0px 0px 16px 0px;">Més informació</h2>
             <ul>
               <li><a href="#">Procés de renovació del Certificat idCAT</a></li>
               <li><a href="#">Política General de Certificació</a></li>
@@ -71,7 +59,7 @@
           </mj-text>
         </mj-column>
       </mj-section>
-      <mj-section padding="0px 25px 0px 25px">
+      <mj-section padding="0px 24px 32px 24px">
         <mj-column>
             <mj-divider padding="0px" border-width="1px" border-style="solid" border-color="#E5E6E8"/>
             <mj-text padding="0px" color="#656D72" mj-class="arial-14">
@@ -82,9 +70,9 @@
         </mj-column>
       </mj-section>
     </mj-wrapper>
-    <mj-section css-class="wrapper">
+    <mj-section css-class="wrapper" padding="0px">
       <mj-column>
-        <mj-text padding="0px 15px" mj-class="arial-14" color="#656D72">
+        <mj-text padding="24px 24px 16px 24px" mj-class="arial-14" color="#656D72">
           <p style="margin:0">Aquest missatge de correu electrònic procedeix d'una adreça exclusivament d'enviament. No responguis aquest missatge. Servei prestat per l'Administració Oberta de Catalunya (AOC).</p>
         </mj-text>
         <mj-image src="../assets/logo-aoc.png" alt="AOC. Administració Oberta de Catalunya" align="left" width="174px" height="28px" padding="15px"></mj-image>

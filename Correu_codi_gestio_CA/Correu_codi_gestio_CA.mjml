@@ -17,18 +17,6 @@
       .wrapper {
         width: 80%;
       }
-      .cell {
-        padding: 0px;
-      }
-      .data-section {
-        margin: 0px 25px 0px 25px;
-      }
-      td {
-        color: #656D72;
-      }
-      th {
-        color: #1B2124;
-      }
       a {
         color: #005CD1;
       }
@@ -40,34 +28,34 @@
     </mj-style>
   </mj-head>
   <mj-body background-color="#F5F5F6" css-class="body">
-    <mj-wrapper background-color="#FFFFFF" border-radius="12px" css-class="wrapper">
+    <mj-wrapper background-color="#FFFFFF" border-radius="12px" css-class="wrapper" padding="0px">
       <mj-section>
         <mj-column>
-          <mj-text padding="0px 25px 0px 25px">
+          <mj-text padding="32px 24px 0px 24px">
             <h1 style="margin:0"><a href="https://www.idcat.cat/"><img src="../assets/logo.png" width="88px" height="80px" align="left" alt="idCAT CERTIFICAT"/></a></h1>
           </mj-text>
         </mj-column>
       </mj-section>
       <mj-section padding="0px">
         <mj-column>
-          <mj-text padding="0px 25px" mj-class="arial-18" color="#1B2124">
+          <mj-text padding="0px 24px" mj-class="arial-18" color="#1B2124">
             <h2 style="margin:0;font-size:18px;">Hola Marta,</h2>
           </mj-text>
-          <mj-text padding="0px 25px" mj-class="arial-16" color="#1B2124">
+          <mj-text padding="0px 24px" mj-class="arial-16" color="#1B2124">
             <p>Aquí tens el teu codi de gestió.</p>
           </mj-text>
         </mj-column>
       </mj-section>
-      <mj-section padding="15px 0px">
+      <mj-section padding="24px 0px">
         <mj-column>
-          <mj-text padding="0px 25px" mj-class="arial-16" color="#1B2124">
+          <mj-text padding="0px 24px" mj-class="arial-16" color="#1B2124">
             <h2 style="font-size:16px;margin:0">Codi gestió</h2>
             <p style="font-size: 64px;font-weight:bold;letter-spacing:15px;">8888888</p>
-            <p style="color:#656D72;">Si tens dubtes sobre el funcionament del servei d’identitat digital pots consultar el nostre <a href="#">portal de suport.</a></p>
+            <p style="color:#656D72;margin:0;">Si tens dubtes sobre el funcionament del servei d’identitat digital pots consultar el nostre <a href="#">portal de suport.</a></p>
           </mj-text>
         </mj-column>
       </mj-section>
-      <mj-section padding="0px 25px 0px 25px">
+      <mj-section padding="24px 24px 32px 24px">
         <mj-column>
             <mj-divider padding="0px" border-width="1px" border-style="solid" border-color="#E5E6E8"/>
             <mj-text padding="0px" color="#656D72" mj-class="arial-14">
@@ -80,7 +68,7 @@
     </mj-wrapper>
     <mj-section css-class="wrapper">
       <mj-column>
-        <mj-text padding="0px 15px" mj-class="arial-14" color="#656D72">
+        <mj-text padding="0px 24px 16px 24px" mj-class="arial-14" color="#656D72">
           <p style="margin:0">Aquest missatge de correu electrònic procedeix d'una adreça exclusivament d'enviament. No responguis aquest missatge. Servei prestat per l'Administració Oberta de Catalunya (AOC).</p>
         </mj-text>
         <mj-image src="../assets/logo-aoc.png" alt="AOC. Administració Oberta de Catalunya" align="left" width="174px" height="28px" padding="15px"></mj-image>
