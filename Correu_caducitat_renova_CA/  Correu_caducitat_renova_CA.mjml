@@ -1,0 +1,93 @@
+<mjml>
+  <mj-head>
+    <mj-title>Email notificació</mj-title>
+    <mj-attributes>
+        <mj-class name="arial-14" font-family="Arial" font-size="14px" line-height="1.4"/>
+        <mj-class name="arial-16" font-family="Arial" font-size="16px" line-height="1.5"/>
+        <mj-class name="arial-16-bold" font-family="Arial" font-size="16px" font-weight="bold" line-height="1.5"/>
+        <mj-class name="arial-18" font-family="Arial" font-size="18px" line-height="1.5"/>
+    </mj-attributes>
+    <mj-style inline="inline">
+      * {
+        letter-spacing: 0.5px;
+      }
+      .body {
+        padding-top: 100px;
+      }
+      .wrapper {
+        width: 80%;
+      }
+      .cell {
+        padding: 0px;
+      }
+      .data-section {
+        margin: 0px 25px 0px 25px;
+      }
+      td {
+        color: #656D72;
+      }
+      th {
+        color: #1B2124;
+      }
+      a {
+        color: #005CD1;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#F5F5F6" css-class="body">
+    <mj-wrapper background-color="#FFFFFF" border-radius="12px" css-class="wrapper">
+      <mj-section>
+        <mj-column>
+          <mj-text padding="0px 25px 0px 25px">
+            <h1 style="margin:0"><a href="https://www.idcat.cat/"><img src="../assets/logo.png" width="88px" height="80px" align="left" alt="idCAT CERTIFICAT"/></a></h1>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0px">
+        <mj-column>
+          <mj-text padding="0px 25px" mj-class="arial-18" color="#1B2124">
+            <h2 style="margin:0;font-size:18px;">Hola Marta,</h2>
+          </mj-text>
+          <mj-text padding="0px 25px" mj-class="arial-16" color="#1B2124">
+            <p><strong>El teu idCAT Certificat caducarà aviat.</strong> Renova'l abans del dia [DATA DE CADUCITAT] per poder continuar fent-ne ús.</p>
+            <p>Per renovar-lo utilitza l'<strong>ordinador i obre el navegador</strong> en el qual tens instal·lat l'idCAT Certificat.</p>
+          </mj-text>
+          <mj-button href="#" background-color="#005CD1" border-radius="8px" align="left" inner-padding="8px 16px" mj-class="arial-16-bold">Identifica't per accedir-hi</mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column>
+          <mj-text padding="0px 25px" mj-class="arial-16" color="#1B2124">
+            <h2 style="font-size:16px;">Més informació</h2>
+            <p style="color:#656D72;">Un cop caducat no el podràs renovar en línia, però el podràs obtenir de nou en una <a href="#">entitat de registre idCAT.</a></p>
+            <p style="color:#656D72;">Per saber-ne més visita: <a href="#">Com renovo l'idCAT Certificat?</a></p>
+            <p style="color:#656D72;">Si tens dubtes sobre el funcionament del servei d’identitat digital pots consultar el nostre <a href="#">portal de suport.</a></p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0px 25px 0px 25px">
+        <mj-column>
+            <mj-divider padding="0px" border-width="1px" border-style="solid" border-color="#E5E6E8"/>
+            <mj-text padding="0px" color="#656D72" mj-class="arial-14">
+                <p>Com a sol·licitant del certificat t’informem que el Consorci AOC, com a responsable del tractament, tractarà les teves dades de caràcter personal dins de l’activitat "Persones Físiques Certificades" que figura al Registre d’activitats de tractament del Consorci AOC.
+                Les dades es tractaran per a la gestió del servei de certificació, és a dir per l’emissió i gestió posterior del certificat i per establir comunicacions sobre les peticions, els actes divulgatius dels certificats, els nous usos, les enquestes de satisfacció o altres serveis relacionats directament amb el servei.</p>
+                <p>Pots accedir a les teves dades, sol·licitar-ne la rectificació o supressió, oposar-te al tractament i sol·licitar-ne la limitació, mitjançant un escrit adreçat al Consorci AOC C/Tànger 98, 22@- 08018 Barcelona o mitjançant formulari electrònic <a href="#" style="color:#656D72">disponible aquí.</a> Pots ampliar l’anterior informació consultant el Registre de l’Activitat del Tractament "Persones Físiques Certificades" de la <a href="#" style="color:#656D72">seu electrònica del Consorci AOC.</a></p>
+            </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <mj-section css-class="wrapper">
+      <mj-column>
+        <mj-text padding="0px 15px" mj-class="arial-14" color="#656D72">
+          <p style="margin:0">Aquest missatge de correu electrònic procedeix d'una adreça exclusivament d'enviament. No responguis aquest missatge. Servei prestat per l'Administració Oberta de Catalunya (AOC).</p>
+        </mj-text>
+        <mj-image src="../assets/logo-aoc.png" alt="AOC. Administració Oberta de Catalunya" align="left" width="174px" height="28px" padding="15px"></mj-image>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
