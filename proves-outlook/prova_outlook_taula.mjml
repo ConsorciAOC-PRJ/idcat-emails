@@ -1,0 +1,126 @@
+<mjml>
+  <mj-head>
+    <mj-title>Email notificació</mj-title>
+    <mj-attributes>
+        <mj-class name="arial-14" font-family="Arial" font-size="14px" line-height="1.4"/>
+        <mj-class name="arial-16" font-family="Arial" font-size="16px" line-height="1.5"/>
+        <mj-class name="arial-16-bold" font-family="Arial" font-size="16px" font-weight="bold" line-height="1.5"/>
+        <mj-class name="arial-18" font-family="Arial" font-size="18px" line-height="1.5"/>
+    </mj-attributes>
+    <mj-style inline="inline">
+      * {
+        letter-spacing: 0.5px;
+      }
+      .body {
+        padding-top: 50px;
+      }
+      .wrapper {
+        width: 80%;
+      }
+      a {
+        color: #005CD1;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      td {
+        color: #656D72;
+      }
+      th {
+        color: #1B2124;
+      }
+    </mj-style>
+    <mj-style>
+      .data-table td, .data-table th {
+        padding-top: 8px;
+      }
+      @media (max-width: 768px) {
+        .data-table tr, .data-table td, .data-table th {
+          display: block;
+        }
+        .data-table td, .data-table th {
+          padding-top: 0;
+        }
+        .data-table tr {
+          margin-top: 12px;
+        }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#F5F5F6" css-class="body">
+    <mj-wrapper background-color="#FFFFFF" border-radius="12px" css-class="wrapper" padding="0px">
+      <mj-section padding="32px 24px 24px 24px">
+        <mj-column>
+          <mj-text padding="0px">
+            <h1 style="margin:0"><a href="https://www.idcat.cat/"><img src="../assets/logo.png" width="88px" height="80px" align="left" alt="idCAT CERTIFICAT"/></a></h1>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0px">
+        <mj-column>
+          <mj-text padding="0px 24px" mj-class="arial-18" color="#1B2124">
+            <h2 style="margin:0;font-size:18px;">Hola XAVIER,</h2>
+          </mj-text>
+          <mj-text padding="0px 24px" mj-class="arial-16" color="#1B2124">
+            <p>Has <strong>sol·licitat correctament</strong> l'idCAT Certificat.</p>
+            <p>Per finalitzar el procés, hauràs d'anar a una <a href="">Entitat de Registre</a> idCAT per validar la teva identitat.</p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="24px 24px 0px 24px">
+        <mj-column>
+            <mj-text padding="0px 0px 6px 0px" mj-class="arial-18" color="#1B2124"><h2 style="margin:0;font-size:18px;">Dades de la sol·licitud</h2></mj-text>
+            <mj-divider padding="0px" border-width="1px" border-style="solid" border-color="#B1B4B6"/>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0px">
+        <mj-column>
+          <mj-table padding="16px 24px 0px 24px" mj-class="arial-16" css-class="data-table">
+            <tr>
+              <th align="left" style="width:30%">Nom</th>
+              <td>XA**ER LL****IA SE**NE</td>
+            </tr>
+            <tr>
+              <th align="left">Document identificatiu</th>
+              <td>47*****2D</td>
+            </tr>
+            <tr>
+              <th align="left">Correu electrònic</th>
+              <td><a href="mailto:xllebaria@aoc.cat">xllebaria@aoc.cat</a></td>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="24px 0px 0px 0px">
+        <mj-column>
+          <mj-text padding="0px 24px" mj-class="arial-16" color="#1B2124">
+            <p style="color:#656D72;margin-top:0;">Necessitaràs l'original del document identificatiu que has utilitzat a la teva sol·licitud.</p>
+            <p style="color:#656D72;margin-top:0;">Si vols modificar alguna de les dades, ho podràs fer allà mateix.</p>
+            <p style="color:#656D72;margin-bottom:0;">Per saber-ne més: <a href="">Com serà el procés a l'entitat de registre?</a></p>
+            <p style="color:#656D72;margin-bottom:0;">Si tens dubtes sobre el funcionament del servei d’Identitat Digital, pots consultar el nostre <a href="">Portal de Suport.</a></p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="24px 24px 32px 24px">
+        <mj-column>
+            <mj-divider padding="0px" border-width="1px" border-style="solid" border-color="#E5E6E8"/>
+            <mj-text padding="0px" color="#656D72" mj-class="arial-14">
+                <p>Com a sol·licitant del certificat t’informem que el Consorci AOC, com a responsable del tractament, tractarà les teves dades de caràcter personal dins de l’activitat "Persones Físiques Certificades" que figura al Registre d’activitats de tractament del Consorci AOC.
+                Les dades es tractaran per a la gestió del servei de certificació, és a dir per l’emissió i gestió posterior del certificat i per establir comunicacions sobre les peticions, els actes divulgatius dels certificats, els nous usos, les enquestes de satisfacció o altres serveis relacionats directament amb el servei.</p>
+                <p>Pots accedir a les teves dades, sol·licitar-ne la rectificació o supressió, oposar-te al tractament i sol·licitar-ne la limitació, mitjançant un escrit adreçat al Consorci AOC C/Tànger 98, 22@- 08018 Barcelona o mitjançant formulari electrònic <a href="#" style="color:#656D72">disponible aquí.</a> Pots ampliar l’anterior informació consultant el Registre de l’Activitat del Tractament "Persones Físiques Certificades" de la <a href="#" style="color:#656D72">seu electrònica del Consorci AOC.</a></p>
+            </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <mj-section css-class="wrapper" padding="0px">
+      <mj-column>
+        <mj-text padding="24px 24px 16px 24px" mj-class="arial-14" color="#656D72">
+          <p style="margin:0">Aquest missatge de correu electrònic procedeix d'una adreça exclusivament d'enviament. No responguis aquest missatge. Servei prestat per l'Administració Oberta de Catalunya (AOC).</p>
+        </mj-text>
+        <mj-image src="../assets/logo-aoc.png" alt="AOC. Administració Oberta de Catalunya" align="left" width="174px" height="28px" padding="15px"></mj-image>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
